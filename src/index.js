@@ -1,6 +1,6 @@
 import './css/styles.css';
-import { fetchCountries } from './js/fetchCountries';
-import { countryСardTeemplate, countryListTemplate } from './js/markupTemplate';
+import { fetchCountries } from './fetchCountries';
+import { countryСardTeemplate, countryListTemplate } from './markupTemplate';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import debounce from 'lodash.debounce';
 
